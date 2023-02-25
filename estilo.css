@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+.cabecalho{
+    position: fixed;
+    width: 100%;  
+    height: 200px;
+    background-color: rgb(61, 167, 131);
+}
+.eixo-y{
+    justify-content: center;
+}   
+.interface{
+    margin-top: 130px;
+    background-color: white;
+    padding: 0px;
+    position: absolute;
+    margin-left: 25%;
+}
+.flex-item{
+    margin: auto;
+    padding: auto;
+    display: inline-flex;
+}
+.box{
+    justify-content: center;
+    margin: auto;
+}
+section{
+    display: block;
+    padding: auto;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+}
+.texting-QR{
+    max-width: 400px;
+}
+figure{
+    margin: auto;
+    padding: auto;
+}
+legend figure{
+    display: none;
+}
+figure#logoWhatsapp{
+    position: fixed;
+    margin-top: 20px;
+}
+figure#logoWhatsapp img{
+    max-width: 300px;
+}
+div#QRcode{
+    max-width: 250px;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+li{
+    list-style: none;
+    margin-top: 20px;
+}

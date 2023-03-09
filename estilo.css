@@ -8,58 +8,47 @@ body{
     height: 200px;
     background-color: rgb(61, 167, 131);
 }
+figure#logoWhatsapp img{
+    margin-left: 80px;
+}
 .eixo-y{
     justify-content: center;
 }   
 .interface{
-    margin-top: 130px;
-    background-color: white;
-    padding: 0px;
     position: absolute;
-    margin-left: 25%;
+    margin-top: 130px;
+    width: 100%;
 }
-.flex-item{
-    margin: auto;
-    padding: auto;
-    display: inline-flex;
-}
-.box{
-    justify-content: center;
-    margin: auto;
+.box{   
+    position: relative;
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
 }
 section{
     display: block;
     padding: auto;
     margin: auto;
 }
-.flex-container{
-    display: flex;
+.figureQrCode{
+    float: right;
 }
-.texting-QR{
+ul{
+    float: left;
     max-width: 400px;
-}
-figure{
     margin: auto;
     padding: auto;
 }
-legend figure{
-    display: none;
-}
-figure#logoWhatsapp{
-    position: fixed;
-    margin-top: 20px;
-}
-figure#logoWhatsapp img{
-    max-width: 300px;
-}
-div#QRcode{
-    max-width: 250px;
-}
-iframe{
-    display: block;
-    margin: auto;
-}
 li{
     list-style: none;
+    margin: auto;
+    padding: auto; 
     margin-top: 20px;
+}
+.iframe{
+    max-width: 600px;
+    margin: auto;
+}
+iframe{
+    width: 100%;
 }
